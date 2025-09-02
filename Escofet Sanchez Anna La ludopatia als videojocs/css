@@ -1,0 +1,53 @@
+
+
+p {
+    color: black;
+    text-align: justify; 
+    font-size: 16px;
+    font-style: normal;
+    font-family: system-ui;
+
+}
+
+
+.tab-content {
+  display: none;
+}
+
+.tab:target .tab-content, .tab:last-of-type .tab-content {
+  display: block;
+}
+
+.tab:target ~ .tab:last-of-type .tab-content {
+  display: none;
+}
+
+:root {
+  --tabs-border-color: #ABCDEF;
+  --tabs-border-size: 3px;
+  --tabs-text-color: white;
+  --tabs-dark-color: #012345;
+  --tabs-lite-color: #345678;
+  --tabs-width: 120px;
+  --tabs-height: 40px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+h2, p {
+  margin: 0;
+} 
+a {
+  color: inherit;
+  text-decoration: none;
+} 
+.tabs * {
+  box-sizing: border-box;
+}
+
+
+
+
+

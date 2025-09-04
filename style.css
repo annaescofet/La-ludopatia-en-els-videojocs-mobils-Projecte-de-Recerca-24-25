@@ -11,10 +11,10 @@ body {
  }
 
 main {
-    margin-left: 210px;
+    margin-left: 130px;
     margin-right: 250px;
     text-align: justify;
-    transform: scale(1.1);  
+    transform: scale(1.05);  
     transform-origin: top left; 
 }
 
@@ -230,3 +230,4 @@ p {
     color: #5c5470;
 
 }
+

@@ -16,6 +16,7 @@ main {
     text-align: justify;
     transform: scale(1.05);  
     transform-origin: top left; 
+    margin-bottom: 100px;
 }
 
 #Condicionament {
@@ -230,4 +231,5 @@ p {
     color: #5c5470;
 
 }
+
 

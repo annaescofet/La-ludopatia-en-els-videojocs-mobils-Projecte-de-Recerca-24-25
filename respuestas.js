@@ -41,7 +41,7 @@ function resultado() {
 
     nota = p1+p2+p3+p4+p5+p6+p7+p8+p9+p10;
 
-   if (nota >= 7.0) {
+   if (nota >= 6.5) {
     window.location = 'resultados6.html?nota=' + nota;
 } else if (nota >=4) {
     window.location = 'resultados4.html?nota=' + nota;
@@ -51,3 +51,4 @@ function resultado() {
 }
 
 }
+
